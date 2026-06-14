@@ -59,11 +59,11 @@ def estimate_loss():
     return out
 
 # model init
-config = GPTConfig(vocab_size=vocab_size, block_size=block_size)
+config = GPTConfig(vocab_size=vocab_size, block_size=block_size, dropout=0.2)
 model = GPT(config)
 model.to(device)
 
-optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate, weight_decay=0.1)
 
 from utils import log_info, plot_loss
 

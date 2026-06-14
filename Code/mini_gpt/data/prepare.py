@@ -22,6 +22,15 @@ if not os.path.exists(input_file_path):
 with open(input_file_path, 'r', encoding='utf-8') as f:
     raw_text = f.read()
 
+import re
+# 1. 干掉所有的数字编号和诗名/作者（位于数字同一行，比如：062白居易：谷口别）
+raw_text = re.sub(r'^\d{3}.*?\n', '', raw_text, flags=re.MULTILINE)
+# 2. 干掉目录格式（比如：卷一、五言古诗 . . . 001）
+raw_text = re.sub(r'^.*卷[一二三四五六].*\n', '', raw_text, flags=re.MULTILINE)
+raw_text = re.sub(r'^.*乐府.*\.\s*\..*\n', '', raw_text, flags=re.MULTILINE)
+# 3. 删除连续多余的空行
+raw_text = re.sub(r'\n\s*\n', '\n', raw_text)
+
 print(f"Length of raw dataset in characters: {len(raw_text):,}")
 
 # extract unique characters to build vocabulary
