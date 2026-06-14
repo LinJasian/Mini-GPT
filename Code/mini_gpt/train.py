@@ -102,3 +102,12 @@ for iter in range(max_iters + 1):
 
 # Plot the loss curve
 plot_loss(train_losses_history, val_losses_history, eval_steps)
+
+# Save the model checkpoint
+checkpoint = {
+    'model': model.state_dict(),
+    'optimizer': optimizer.state_dict(),
+    'config': config,
+}
+torch.save(checkpoint, os.path.join(os.path.dirname(__file__), 'ckpt.pt'))
+log_info("Model saved to ckpt.pt")
