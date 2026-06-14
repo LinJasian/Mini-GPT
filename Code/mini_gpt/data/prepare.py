@@ -9,10 +9,14 @@ if not os.path.exists(input_file_path):
     print(f"Downloading {data_url}...")
     with open(input_file_path, 'w', encoding='utf-8') as f:
         response = requests.get(data_url)
-        # some files might be gbk, try text first
+        #Version1:some files might be gbk, try text first
         #text = response.content.decode('utf-8', errors='ignore')
         #f.write(text)
-        # 明确指定使用 gbk 进行解码，若遇到个别杂质字符用 ? 代替（replace）而不是直接无视丢弃
+        # Version2:明确指定使用 gbk 进行解码，若遇到个别杂质字符用 ? 代替（replace）而不是直接无视丢弃
+        #text = response.content.decode('gbk', errors='replace')
+        #f.write(text)
+        #乱码问题是因为原文本的编码格式导致的。普通的 utf-8 和简单的 gbk 在处理某些老的文本资源时会遇到无法正确解析的字符，导致后面所有的文本都被当做乱码。
+        #通过 gb18030 编码重新读取并解码了原数据。这是解决中文古籍或旧文本文档乱码的最佳方式。
         text = response.content.decode('gb18030', errors='ignore')
         f.write(text)
 with open(input_file_path, 'r', encoding='utf-8') as f:
