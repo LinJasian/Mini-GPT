@@ -68,3 +68,288 @@ Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/resul
 
 
 
+=================== 开始新的预训练 ===================
+Training on device: mps
+step 0: train loss 8.0492, val loss 8.0489
+step 100: train loss 5.8480, val loss 6.2010
+step 200: train loss 5.3822, val loss 6.0051
+step 300: train loss 4.9385, val loss 5.9586
+step 400: train loss 4.4633, val loss 5.8922
+step 500: train loss 4.0240, val loss 6.0023
+
+--- Generation at step 500 ---
+床前明月光秋，河新嫁圣在清时。
+次游。
+红含波哳迟：隋人
+长山万壑倏门南山一杯君不知，玉阶右，风。
+明浮尘如东
+--------------------------
+
+step 600: train loss 3.6332, val loss 6.1083
+step 700: train loss 3.3572, val loss 6.1441
+step 800: train loss 3.2208, val loss 6.3062
+step 900: train loss 2.9686, val loss 6.4656
+step 1000: train loss 2.7343, val loss 6.6164
+
+--- Generation at step 1000 ---
+床前明月光集，家童稚丹青萝。
+此去衔红绡，随沙下白骨。
+献宝涧底滑，万里乱隅武。
+风吹得纸本以魄动如电，效颦。
+--------------------------
+
+step 1100: train loss 2.5589, val loss 6.6483
+step 1200: train loss 2.4612, val loss 6.8283
+step 1300: train loss 2.1753, val loss 6.9393
+step 1400: train loss 2.1459, val loss 6.8570
+step 1500: train loss 1.9382, val loss 7.0953
+
+--- Generation at step 1500 ---
+床前明月光彩凤池苑，六宫中感遥相向妆成流。
+韦应物：喜会烟鸟远眺
+后角断绝，夜忆谢傅脂。
+露滴铜龙得移官舍，一
+--------------------------
+
+step 1600: train loss 1.8149, val loss 7.2405
+step 1700: train loss 1.6349, val loss 7.2630
+step 1800: train loss 1.5174, val loss 7.3461
+step 1900: train loss 1.3405, val loss 7.5461
+step 2000: train loss 1.2274, val loss 7.7907
+
+--- Generation at step 2000 ---
+床前明月光入锦瑟，更短景物浑脱。
+流水息声酸辞远，夜雨几来。
+飞木萧瑟初钟磬，游衍西入扉。
+王维：酬程延秋夜
+
+--------------------------
+
+Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+=================== 开始新的预训练 ===================
+Training on device: mps
+step 0: train loss 7.9764, val loss 7.9776
+step 100: train loss 6.0033, val loss 6.1856
+step 200: train loss 5.4726, val loss 6.0976
+step 300: train loss 4.8186, val loss 5.9784
+step 400: train loss 4.2656, val loss 6.0065
+step 500: train loss 3.7919, val loss 6.1539
+
+--- Generation at step 500 ---
+床前明月光，人人未垣，都门。
+呜觉谏为迤霜凄上我独怆然。
+云江楼台中世称情，夕殿幄人来望宿火，雁飞渡风生。
+自
+--------------------------
+
+step 600: train loss 3.5197, val loss 6.2413
+step 700: train loss 3.2431, val loss 6.4215
+step 800: train loss 3.0588, val loss 6.5351
+step 900: train loss 2.8501, val loss 6.6683
+step 1000: train loss 2.6946, val loss 6.8452
+
+--- Generation at step 1000 ---
+床前明月光巴，长风早被驱。
+因出城蝶来，舍晚事。
+来月明朝四海事，宾复照暮复。
+时岁下若逢君营慵。
+金樽清花向
+--------------------------
+
+step 1100: train loss 2.4931, val loss 6.9939
+step 1200: train loss 2.3683, val loss 7.0388
+step 1300: train loss 2.2467, val loss 7.2438
+step 1400: train loss 2.0431, val loss 7.2117
+step 1500: train loss 1.9462, val loss 7.5225
+
+--- Generation at step 1500 ---
+床前明月光寒月。
+春人不待月，琴闻至夕旋平生。
+熊咆一沙鸣琴弹，家犹歌楚妃征草。
+沙鸣天往事音世法舟不知。
+君
+--------------------------
+
+step 1600: train loss 1.7647, val loss 7.4034
+step 1700: train loss 1.6662, val loss 7.5297
+step 1800: train loss 1.4257, val loss 7.8180
+step 1900: train loss 1.3265, val loss 7.9458
+step 2000: train loss 1.1875, val loss 8.0958
+
+--- Generation at step 2000 ---
+床前明月光，或骑魂魄动地间。
+北风急雪山况复，唯见玉珂为鬼沙。
+骊歌慢舞剑器动，雨闻惊破霓旌旗。
+亚相见封侯剑
+--------------------------
+
+Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+
+
+
+=================== 开始新的预训练 ===================
+Training on device: mps
+step 0: train loss 7.9500, val loss 7.9515
+step 100: train loss 6.0369, val loss 6.1196
+step 200: train loss 5.4673, val loss 6.0402
+step 300: train loss 4.8047, val loss 6.0230
+step 400: train loss 4.2027, val loss 6.0547
+step 500: train loss 3.7690, val loss 6.1052
+
+--- Generation at step 500 ---
+床前明月光混画，此漓绎道资来煮。
+可以俗露草经智死事，万古来见鸣悴。
+来二讽吾田风雨对青枫叶，城春峥嵘高。
+春
+--------------------------
+
+step 600: train loss 3.4479, val loss 6.2659
+step 700: train loss 3.2545, val loss 6.4716
+step 800: train loss 3.0798, val loss 6.6736
+step 900: train loss 2.8315, val loss 6.7138
+step 1000: train loss 2.6678, val loss 6.9750
+
+--- Generation at step 1000 ---
+床前明月光。
+夜飞雪落游边碧，初日暮雪照眼。
+花落楚烛烛烛归鸟，一处处闻君臣深。
+老病解听青兵阻，儿女忽闻。
+
+--------------------------
+
+step 1100: train loss 2.4956, val loss 6.9590
+step 1200: train loss 2.3406, val loss 7.0325
+step 1300: train loss 2.2753, val loss 7.2684
+step 1400: train loss 2.0765, val loss 7.4531
+step 1500: train loss 1.8732, val loss 7.4335
+
+--- Generation at step 1500 ---
+床前明月光犹薄，长河影分钿。
+与禅寂竟夕，千还对一曲江湖。
+花钿合金阙晓须作商人不扫心似障凌烟尘里悲，月华烛。
+--------------------------
+
+step 1600: train loss 1.7211, val loss 7.5996
+step 1700: train loss 1.5564, val loss 7.7789
+step 1800: train loss 1.4555, val loss 7.7620
+step 1900: train loss 1.3272, val loss 8.0341
+step 2000: train loss 1.1427, val loss 8.1440
+
+--- Generation at step 2000 ---
+床前明月光，故乡处达地间。
+运弟犹为樽，故人有本自与尔。
+当重深坐相思乡客扫，孤城作吴城。
+古来枫叶满屋访，预
+--------------------------
+
+Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+=================== 开始新的预训练 ===================
+Training on device: mps
+step 0: train loss 8.0177, val loss 8.0185
+step 100: train loss 6.0219, val loss 6.1292
+step 200: train loss 5.5050, val loss 6.0957
+step 300: train loss 4.8437, val loss 5.9542
+step 400: train loss 4.2154, val loss 5.9964
+step 500: train loss 3.8206, val loss 6.2012
+
+--- Generation at step 500 ---
+床前明月光彩乍见风吹！
+抚三秦地真，林空细腻琴理玉门前声香。
+但有图有一飘陵，黄鹤有大娘花开复情古来巴丘峦螳适
+--------------------------
+
+step 600: train loss 3.4815, val loss 6.3318
+step 700: train loss 3.2678, val loss 6.4877
+step 800: train loss 3.0207, val loss 6.4900
+step 900: train loss 2.8952, val loss 6.6420
+step 1000: train loss 2.7266, val loss 6.8786
+
+--- Generation at step 1000 ---
+床前明月光集老臣祭酒徒□（“绕床畏蛇食汉泪寒，宓妃留鱼龙跃马红玲珑！
+出换宫晓汲井中，不相疑。
+庙内训气黯黯然
+--------------------------
+
+step 1100: train loss 2.6360, val loss 7.0499
+step 1200: train loss 2.4320, val loss 7.2040
+step 1300: train loss 2.2577, val loss 7.1737
+step 1400: train loss 2.1352, val loss 7.3091
+step 1500: train loss 2.0630, val loss 7.4460
+
+--- Generation at step 1500 ---
+床前明月光如膏沐语，砧声发对此可睹。
+泉壑岭猿似诉平生长安骨乱拜冕旒。
+七香雾藏半壁佛，思了无缥缈间似九微风吹
+--------------------------
+
+step 1600: train loss 1.9125, val loss 7.5521
+step 1700: train loss 1.7396, val loss 7.5422
+step 1800: train loss 1.5443, val loss 7.6336
+step 1900: train loss 1.4631, val loss 7.8851
+step 2000: train loss 1.2998, val loss 7.9061
+
+--- Generation at step 2000 ---
+床前明月光，春风等闲坐。
+主人莫学生明日，清江瑟。
+云暮禽相近种篱，对影故乡树带茅。
+乡心素手持绿苹，余亦自觉
+--------------------------
+
+Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+=================== 开始新的预训练 ===================
+Training on device: mps
+step 0: train loss 7.9855, val loss 7.9791
+step 100: train loss 5.9829, val loss 6.1356
+step 200: train loss 5.4872, val loss 6.0723
+step 300: train loss 4.9262, val loss 6.0334
+step 400: train loss 4.2667, val loss 6.0354
+step 500: train loss 3.8282, val loss 6.1138
+
+--- Generation at step 500 ---
+床前明月光慰然馔同。
+远阳空蹄泉过，且龙戍松杂。
+上青门泉，龙回流轮台。
+微轩冕人壮明我复来，木落空山坐与渔樵
+--------------------------
+
+step 600: train loss 3.4863, val loss 6.2945
+step 700: train loss 3.2635, val loss 6.4046
+step 800: train loss 3.1047, val loss 6.6706
+step 900: train loss 2.8854, val loss 6.7398
+step 1000: train loss 2.7038, val loss 6.8368
+
+--- Generation at step 1000 ---
+床前明月光寒，一双凤尾香。
+海头银篦击节候安大颡三万方悟悦。
+羲如此处处，烟尘荏苒音书稀。
+是丁年辞帝黎死，那
+--------------------------
+
+step 1100: train loss 2.6209, val loss 6.9063
+step 1200: train loss 2.4180, val loss 7.1603
+step 1300: train loss 2.2677, val loss 7.2979
+step 1400: train loss 2.1197, val loss 7.4783
+step 1500: train loss 1.9738, val loss 7.6780
+
+--- Generation at step 1500 ---
+床前明月光，可仰止顺阴？
+俯听梵声一人私。
+路不信高台初成，贫伤怜后庭危石。
+停凤凰池上岳阳，天地一代。
+侯王
+--------------------------
+
+step 1600: train loss 1.8375, val loss 7.6474
+step 1700: train loss 1.6550, val loss 7.8553
+step 1800: train loss 1.5007, val loss 7.9110
+step 1900: train loss 1.3571, val loss 8.0300
+step 2000: train loss 1.2333, val loss 8.2538
+
+--- Generation at step 2000 ---
+床前明月光斗，生在地愿同消息。
+前军行舟人弓箭，应共醉和皆除死。
+感君王将辞剪，驱不得归去古来！
+边土禀君不见
+--------------------------
+
+Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
