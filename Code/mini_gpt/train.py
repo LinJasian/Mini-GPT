@@ -65,13 +65,24 @@ model.to(device)
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
-print(f"Training on device: {device}")
+from utils import log_info, plot_loss
+
+log_info("=================== 开始新的预训练 ===================")
+log_info(f"Training on device: {device}")
+
+# Record losses for plotting
+train_losses_history = []
+val_losses_history = []
+eval_steps = []
 
 for iter in range(max_iters + 1):
     
     if iter % eval_interval == 0 or iter == max_iters:
         losses = estimate_loss()
-        print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        log_info(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        train_losses_history.append(losses['train'].item())
+        val_losses_history.append(losses['val'].item())
+        eval_steps.append(iter)
         
     if iter > 0 and iter % generate_interval == 0:
         model.eval()
@@ -79,7 +90,7 @@ for iter in range(max_iters + 1):
         idx = torch.tensor([encode(context)], dtype=torch.long, device=device)
         generated_idx = model.generate(idx, max_new_tokens=50)
         generated_text = decode(generated_idx[0].tolist())
-        print(f"\n--- Generation at step {iter} ---\n{generated_text}\n--------------------------\n")
+        log_info(f"\n--- Generation at step {iter} ---\n{generated_text}\n--------------------------\n")
         model.train()
 
     # training
@@ -88,3 +99,6 @@ for iter in range(max_iters + 1):
     optimizer.zero_grad(set_to_none=True)
     loss.backward()
     optimizer.step()
+
+# Plot the loss curve
+plot_loss(train_losses_history, val_losses_history, eval_steps)
