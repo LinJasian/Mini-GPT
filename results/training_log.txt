@@ -296,6 +296,9 @@ step 2000: train loss 1.2998, val loss 7.9061
 --------------------------
 
 Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+
+
+
 =================== 开始新的预训练 ===================
 Training on device: mps
 step 0: train loss 7.9855, val loss 7.9791
@@ -353,3 +356,1856 @@ step 2000: train loss 1.2333, val loss 8.2538
 --------------------------
 
 Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8173, val loss 10.9098
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：渡喧汉宫秋日色，狐中云山路人更。
+前句：素履越冰心不寒。续写：沱暖，欲济老臣心肝檄。
+----------------------------------
+
+SFT step 50: train loss 1.4398, val loss 6.1116
+SFT step 100: train loss 1.2954, val loss 6.0248
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：白水绕空使家。
+前句：素履越冰心不寒。续写：顾影落色柳色。
+----------------------------------
+
+SFT step 150: train loss 1.1481, val loss 5.9531
+SFT step 200: train loss 1.1001, val loss 5.9069
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：夜雨悲春树杪百年。
+前句：素履越冰心不寒。续写：弟空忆旧国。
+----------------------------------
+
+SFT step 250: train loss 1.0416, val loss 5.9143
+SFT step 300: train loss 1.0249, val loss 5.9400
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：自归客中门。
+前句：素履越冰心不寒。续写：阴且真源里。
+----------------------------------
+
+SFT step 350: train loss 0.9652, val loss 6.0148
+SFT step 400: train loss 0.9352, val loss 5.9166
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：海畔云海畔桂堂来。
+前句：素履越冰心不寒。续写：空仰见仙桃花雪。
+----------------------------------
+
+SFT step 450: train loss 0.9478, val loss 5.9438
+SFT step 500: train loss 0.8958, val loss 5.9424
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：苍苍茫茫去。
+前句：素履越冰心不寒。续写：心闲水澹然。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.7626, val loss 10.8526
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：渡喧浩两茫云山不见，日楼中军大国来。
+前句：素履越冰心不寒。续写：方尽河募尺，掎摭星一迳趋灵。
+----------------------------------
+
+SFT step 50: train loss 1.4086, val loss 6.1138
+SFT step 100: train loss 1.2392, val loss 6.0251
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：青溪几我去。
+前句：素履越冰心不寒。续写：将挂来者。
+----------------------------------
+
+SFT step 150: train loss 1.1480, val loss 5.8844
+SFT step 200: train loss 1.1070, val loss 5.9573
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：万古戍苍苍苍横绝顶。
+前句：素履越冰心不寒。续写：蜡炬成行频。
+----------------------------------
+
+SFT step 250: train loss 1.0734, val loss 5.9750
+SFT step 300: train loss 1.0327, val loss 5.9813
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：松下章台路。
+前句：素履越冰心不寒。续写：处苍苍茫信手。
+----------------------------------
+
+SFT step 350: train loss 0.9929, val loss 5.9629
+SFT step 400: train loss 0.9494, val loss 5.9302
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：无心惊物生。
+前句：素履越冰心不寒。续写：渚清色随山响易。
+----------------------------------
+
+SFT step 450: train loss 0.9324, val loss 5.8965
+SFT step 500: train loss 0.9130, val loss 6.0048
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：千岩泉石上林。
+前句：素履越冰心不寒。续写：蜀江流水源里。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8099, val loss 10.9017
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：，千重开旷清光彩。
+前句：素履越冰心不寒。续写：闻道旁）芙蓉旌旗如云山色，杲杲杲杲言幽险
+----------------------------------
+
+SFT step 50: train loss 1.4190, val loss 6.0682
+SFT step 100: train loss 1.2964, val loss 6.0229
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：仍怜小园芜已暝。
+前句：素履越冰心不寒。续写：清辉照耀金井家。
+----------------------------------
+
+SFT step 150: train loss 1.1754, val loss 5.9100
+SFT step 200: train loss 1.1735, val loss 5.9386
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：诏书抵万里。
+前句：素履越冰心不寒。续写：绕床拂尘足野老。
+----------------------------------
+
+SFT step 250: train loss 1.0497, val loss 5.9276
+SFT step 300: train loss 1.0121, val loss 5.9287
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：水寒云。
+前句：素履越冰心不寒。续写：莫敢前句：见临邛道初成列明江上国。
+----------------------------------
+
+SFT step 350: train loss 0.9688, val loss 5.9829
+SFT step 400: train loss 0.9727, val loss 5.9571
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：暮空知。
+前句：素履越冰心不寒。续写：嘉宾主弃置妥帖如火煎。
+----------------------------------
+
+SFT step 450: train loss 0.9155, val loss 6.0011
+SFT step 500: train loss 0.9202, val loss 5.9655
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：云书抵万里。
+前句：素履越冰心不寒。续写：报恩不如猬毛磔。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8861, val loss 10.8359
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：，至剡溪水精？
+----------------------------------
+
+SFT step 50: train loss 1.3991, val loss 6.0929
+SFT step 100: train loss 1.2440, val loss 6.1289
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：青枫叶赤松。
+----------------------------------
+
+SFT step 150: train loss 1.1525, val loss 5.8333
+SFT step 200: train loss 1.0625, val loss 5.9262
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：暮暮暮空自来。
+----------------------------------
+
+SFT step 250: train loss 1.0464, val loss 5.9268
+SFT step 300: train loss 1.0558, val loss 5.8836
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：青山喧乱石。
+----------------------------------
+
+SFT step 350: train loss 0.9506, val loss 5.9383
+SFT step 400: train loss 0.9662, val loss 6.0066
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：海鸥散发催木深。
+----------------------------------
+
+SFT step 450: train loss 0.9301, val loss 5.9620
+SFT step 500: train loss 0.8980, val loss 5.9423
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：水更短入云高道。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8353, val loss 10.9639
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：余亦传刁斗傍交巴人稀。
+----------------------------------
+
+SFT step 50: train loss 1.3840, val loss 6.0436
+SFT step 100: train loss 1.2511, val loss 5.9406
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：高鸟飞雪山水龙。
+----------------------------------
+
+SFT step 150: train loss 1.1746, val loss 5.9078
+SFT step 200: train loss 1.1514, val loss 5.8846
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：竞引空复乘水泉。
+----------------------------------
+
+SFT step 250: train loss 1.0447, val loss 5.9977
+SFT step 300: train loss 1.0161, val loss 5.8137
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：蛟龙驭摇落。
+----------------------------------
+
+SFT step 350: train loss 0.9950, val loss 5.9324
+SFT step 400: train loss 0.9419, val loss 5.8698
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：水源何处寻。
+----------------------------------
+
+SFT step 450: train loss 0.9140, val loss 5.9734
+SFT step 500: train loss 0.8834, val loss 5.8975
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：兴因庐山色。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8679, val loss 10.8798
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：木深不得，今日色参天气晚。
+----------------------------------
+
+
+--- SFT Inference at step 0 ---
+前句：北风卷地白草折。续写：空坛静，春心似兀压酒尽青翁。
+----------------------------------
+
+SFT step 50: train loss 1.3806, val loss 6.1069
+SFT step 100: train loss 1.2898, val loss 5.9846
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：前句：钿合昏瘴不得置羹饭。
+----------------------------------
+
+
+--- SFT Inference at step 100 ---
+前句：北风卷地白草折。续写：空驭气蒸藜炊黍饷东。
+----------------------------------
+
+SFT step 150: train loss 1.1552, val loss 5.9882
+SFT step 200: train loss 1.0858, val loss 5.8235
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：青津口石苑皆不到汉。
+----------------------------------
+
+
+--- SFT Inference at step 200 ---
+前句：北风卷地白草折。续写：遥窥正繁花竹绕。
+----------------------------------
+
+SFT step 250: train loss 1.0387, val loss 5.9806
+SFT step 300: train loss 0.9961, val loss 5.8692
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：名马嵬坡下黄。
+----------------------------------
+
+
+--- SFT Inference at step 300 ---
+前句：北风卷地白草折。续写：读罢须返关山晴。
+----------------------------------
+
+SFT step 350: train loss 0.9926, val loss 5.9274
+SFT step 400: train loss 0.9507, val loss 5.8755
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：千家散入千。
+----------------------------------
+
+
+--- SFT Inference at step 400 ---
+前句：北风卷地白草折。续写：珠箔银屏迤逦开。
+----------------------------------
+
+SFT step 450: train loss 0.9669, val loss 5.8772
+SFT step 500: train loss 0.8847, val loss 5.9914
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：出门犹似刀断云。
+----------------------------------
+
+
+--- SFT Inference at step 500 ---
+前句：北风卷地白草折。续写：今朝槿如一雁过。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.7069, val loss 10.8697
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：，苍茫更速皆与雪。
+前句：北风卷地白草折。续写：，至今日绮窗曙色。
+----------------------------------
+
+SFT step 50: train loss 1.4177, val loss 6.0871
+SFT step 100: train loss 1.2397, val loss 5.9896
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：波江流。
+前句：北风卷地白草折。续写：独异乡明日夕。
+----------------------------------
+
+SFT step 150: train loss 1.1121, val loss 5.9313
+SFT step 200: train loss 1.0863, val loss 5.9152
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：庐山红树色。
+前句：北风卷地白草折。续写：连峰出口守。
+----------------------------------
+
+SFT step 250: train loss 1.0440, val loss 5.9383
+SFT step 300: train loss 1.0365, val loss 5.8126
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：忽复返关山。
+前句：北风卷地白草折。续写：由来煮白门。
+----------------------------------
+
+SFT step 350: train loss 1.0193, val loss 5.9921
+SFT step 400: train loss 0.9530, val loss 6.0874
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：时见陇上使蛟龙。
+前句：北风卷地白草折。续写：晴川空好水落而。
+----------------------------------
+
+SFT step 450: train loss 0.9118, val loss 5.9853
+SFT step 500: train loss 0.9235, val loss 5.9788
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：去随转绿水。
+前句：北风卷地白草折。续写：妆泪红阑。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8601, val loss 10.9069
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：巅，青苔渡白苹野寺。
+前句：北风卷地白草折。续写：转轴拨里恩犹堪说，黄鹂空自悲茫然。
+----------------------------------
+
+SFT step 50: train loss 1.4315, val loss 6.2330
+SFT step 100: train loss 1.2291, val loss 5.9294
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：危樯独异乡心。
+前句：北风卷地白草折。续写：阳好。
+----------------------------------
+
+SFT step 150: train loss 1.1439, val loss 5.9049
+SFT step 200: train loss 1.0724, val loss 5.8895
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：晴门外不到水荡。
+前句：北风卷地白草折。续写：报得志决身歼军下。
+----------------------------------
+
+SFT step 250: train loss 1.0497, val loss 5.8980
+SFT step 300: train loss 1.0182, val loss 5.8737
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：一川空桑低空悠。
+前句：北风卷地白草折。续写：春作胡骑尘际。
+----------------------------------
+
+SFT step 350: train loss 0.9868, val loss 5.8934
+SFT step 400: train loss 0.9282, val loss 5.9237
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：菡萏姬压酒回。
+前句：北风卷地白草折。续写：青楼上青溪水边落黄鸟。
+----------------------------------
+
+SFT step 450: train loss 0.9230, val loss 5.9829
+SFT step 500: train loss 0.9563, val loss 6.0186
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：青松冠时见松如。
+前句：北风卷地白草折。续写：闻道玉门外忽忆旧好。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8061, val loss 10.9179
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：，水为庐山转落愁。
+前句：北风卷地白草折。续写：树万过渠黎，旌旗冻风尘遥声。
+----------------------------------
+
+SFT step 50: train loss 1.4185, val loss 6.1630
+SFT step 100: train loss 1.2485, val loss 6.0205
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：波澜动危旌。
+前句：北风卷地白草折。续写：幽人间。
+----------------------------------
+
+SFT step 150: train loss 1.1590, val loss 5.9492
+SFT step 200: train loss 1.1622, val loss 5.9689
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：天高处闻不敢倚声。
+前句：北风卷地白草折。续写：落深柳边有人。
+----------------------------------
+
+SFT step 250: train loss 1.0712, val loss 5.9899
+SFT step 300: train loss 0.9976, val loss 5.9072
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：高明朝罢暮雪满。
+前句：北风卷地白草折。续写：御床前句：他乡心自悲秋月明独白。
+----------------------------------
+
+SFT step 350: train loss 0.9596, val loss 5.8653
+SFT step 400: train loss 0.9350, val loss 5.9064
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：复情不肯与豺龙。
+前句：北风卷地白草折。续写：沙场烽火来向黄河风流。
+----------------------------------
+
+SFT step 450: train loss 0.9449, val loss 5.8963
+SFT step 500: train loss 0.8789, val loss 6.0997
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：素手把不肯低空。
+前句：北风卷地白草折。续写：清高远含情。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.9206, val loss 10.8956
+
+--- SFT Inference at step 0 ---
+前句：明月出天山。续写：此处攒云当此羡麦，仙人。
+前句：北风卷地白草折。续写：木啭黄鹂，松下滚滚来变调。
+----------------------------------
+
+SFT step 50: train loss 1.3977, val loss 6.0789
+SFT step 100: train loss 1.3020, val loss 6.0288
+
+--- SFT Inference at step 100 ---
+前句：明月出天山。续写：留盘珍羞荆杞。
+前句：北风卷地白草折。续写：乌孙慎勿谓经营。
+----------------------------------
+
+SFT step 150: train loss 1.1747, val loss 6.0168
+SFT step 200: train loss 1.1110, val loss 5.9158
+
+--- SFT Inference at step 200 ---
+前句：明月出天山。续写：可此地弦风早雁飞。
+前句：北风卷地白草折。续写：三点通神圣朝迤逦开风无河。
+----------------------------------
+
+SFT step 250: train loss 1.0757, val loss 5.9360
+SFT step 300: train loss 1.0002, val loss 5.9192
+
+--- SFT Inference at step 300 ---
+前句：明月出天山。续写：青高树万壑树。
+前句：北风卷地白草折。续写：阳割昏胡儿女昔日鲜。
+----------------------------------
+
+SFT step 350: train loss 1.0227, val loss 5.9662
+SFT step 400: train loss 0.9560, val loss 6.0127
+
+--- SFT Inference at step 400 ---
+前句：明月出天山。续写：风送风至夕。
+前句：北风卷地白草折。续写：关城战伐月黄鹂。
+----------------------------------
+
+SFT step 450: train loss 0.9116, val loss 5.9586
+SFT step 500: train loss 0.9229, val loss 5.9286
+
+--- SFT Inference at step 500 ---
+前句：明月出天山。续写：万牛中流水浊。
+前句：北风卷地白草折。续写：秋夜絮事龙得梦。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.9998, val loss 10.8559
+
+--- SFT Inference at step 0 ---
+前句：北风卷地白草折。续写：余亦能开处，绕宅即鲁青楼。
+----------------------------------
+
+SFT step 50: train loss 1.3745, val loss 6.0238
+SFT step 100: train loss 1.2306, val loss 6.0020
+
+--- SFT Inference at step 100 ---
+前句：北风卷地白草折。续写：探看红妆大兄阑。
+----------------------------------
+
+SFT step 150: train loss 1.1881, val loss 6.0125
+SFT step 200: train loss 1.1016, val loss 5.8048
+
+--- SFT Inference at step 200 ---
+前句：北风卷地白草折。续写：犹似刀）芙蓉如一羽。
+----------------------------------
+
+SFT step 250: train loss 1.0594, val loss 5.9332
+SFT step 300: train loss 1.0166, val loss 5.9473
+
+--- SFT Inference at step 300 ---
+前句：北风卷地白草折。续写：胡儿将风至。
+----------------------------------
+
+SFT step 350: train loss 0.9752, val loss 5.9081
+SFT step 400: train loss 1.0295, val loss 5.9374
+
+--- SFT Inference at step 400 ---
+前句：北风卷地白草折。续写：枣花未解歌舞。
+----------------------------------
+
+SFT step 450: train loss 0.9451, val loss 5.9932
+SFT step 500: train loss 0.8947, val loss 6.0087
+
+--- SFT Inference at step 500 ---
+前句：北风卷地白草折。续写：凤凰池对此羡。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.9849, val loss 10.8780
+
+--- SFT Inference at step 0 ---
+前句：北风卷地白草折。续写：，霜蹄脱略名大荒。
+----------------------------------
+
+SFT step 50: train loss 1.3977, val loss 6.1799
+SFT step 100: train loss 1.2268, val loss 6.0943
+
+--- SFT Inference at step 100 ---
+前句：北风卷地白草折。续写：龙昼漏长风。
+----------------------------------
+
+SFT step 150: train loss 1.1226, val loss 5.8623
+SFT step 200: train loss 1.1016, val loss 5.8942
+
+--- SFT Inference at step 200 ---
+前句：北风卷地白草折。续写：英雄泪红颜色阑。
+----------------------------------
+
+SFT step 250: train loss 1.0770, val loss 5.9173
+SFT step 300: train loss 0.9983, val loss 5.9381
+
+--- SFT Inference at step 300 ---
+前句：北风卷地白草折。续写：鬼物华帐下计。
+----------------------------------
+
+SFT step 350: train loss 0.9987, val loss 5.9545
+SFT step 400: train loss 0.9644, val loss 5.9057
+
+--- SFT Inference at step 400 ---
+前句：北风卷地白草折。续写：落空仰古树万里凝天黑。
+----------------------------------
+
+SFT step 450: train loss 0.9269, val loss 5.9850
+SFT step 500: train loss 0.9370, val loss 5.8650
+
+--- SFT Inference at step 500 ---
+前句：北风卷地白草折。续写：水落深林空好音。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.7997, val loss 10.8088
+
+--- SFT Inference at step 0 ---
+前句：北风卷地白草折。续写：余，三晋壑树梨花残。
+----------------------------------
+
+SFT step 50: train loss 1.3997, val loss 6.1282
+SFT step 100: train loss 1.2818, val loss 5.9016
+
+--- SFT Inference at step 100 ---
+前句：北风卷地白草折。续写：关城下望月魄。
+----------------------------------
+
+SFT step 150: train loss 1.1930, val loss 6.0251
+SFT step 200: train loss 1.0938, val loss 5.9871
+
+--- SFT Inference at step 200 ---
+前句：北风卷地白草折。续写：未有情吊岂免捶楚客相和流。
+----------------------------------
+
+SFT step 250: train loss 1.0697, val loss 5.9111
+SFT step 300: train loss 0.9907, val loss 5.9240
+
+--- SFT Inference at step 300 ---
+前句：北风卷地白草折。续写：莲动危石廪腾掷堆祝融。
+----------------------------------
+
+SFT step 350: train loss 1.0604, val loss 5.8981
+SFT step 400: train loss 0.8973, val loss 5.9794
+
+--- SFT Inference at step 400 ---
+前句：北风卷地白草折。续写：犹自萦岩泉。
+----------------------------------
+
+SFT step 450: train loss 0.9745, val loss 5.9587
+SFT step 500: train loss 0.8960, val loss 5.9220
+
+--- SFT Inference at step 500 ---
+前句：北风卷地白草折。续写：曲似杂风尘雾玉京华摇落。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.9422, val loss 10.9112
+
+--- SFT Inference at step 0 ---
+前句：北风卷地白草折。续写：余亦不得控，黄埃边曙白发何秋草独夜角流。
+----------------------------------
+
+SFT step 50: train loss 1.4361, val loss 6.1888
+SFT step 100: train loss 1.3482, val loss 6.0283
+
+--- SFT Inference at step 100 ---
+前句：北风卷地白草折。续写：关山川带雨后有明。
+----------------------------------
+
+SFT step 150: train loss 1.1193, val loss 5.9082
+SFT step 200: train loss 1.0745, val loss 5.9580
+
+--- SFT Inference at step 200 ---
+前句：北风卷地白草折。续写：长安见归日暮雪下。
+----------------------------------
+
+SFT step 250: train loss 1.0965, val loss 5.9055
+SFT step 300: train loss 1.0629, val loss 5.9169
+
+--- SFT Inference at step 300 ---
+前句：北风卷地白草折。续写：松色有草覆额。
+----------------------------------
+
+SFT step 350: train loss 0.9427, val loss 5.9132
+SFT step 400: train loss 0.9694, val loss 6.0077
+
+--- SFT Inference at step 400 ---
+前句：北风卷地白草折。续写：肠断声入归。
+----------------------------------
+
+SFT step 450: train loss 0.9718, val loss 5.9623
+SFT step 500: train loss 0.9253, val loss 5.9815
+
+--- SFT Inference at step 500 ---
+前句：北风卷地白草折。续写：宛转思故乡水田家。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8889, val loss 10.8966
+
+--- SFT Inference at step 0 ---
+前句：北风卷地白草折。续写：，犹似霓明霁寒山何处故乡明月照开。
+----------------------------------
+
+SFT step 50: train loss 1.3468, val loss 6.1137
+SFT step 100: train loss 1.2257, val loss 5.9923
+
+--- SFT Inference at step 100 ---
+前句：北风卷地白草折。续写：凤城双飞雪片飞。
+----------------------------------
+
+SFT step 150: train loss 1.2617, val loss 6.0048
+SFT step 200: train loss 1.0779, val loss 5.9063
+
+--- SFT Inference at step 200 ---
+前句：北风卷地白草折。续写：青黛色黄花飞雪。
+----------------------------------
+
+SFT step 250: train loss 1.0268, val loss 5.8538
+SFT step 300: train loss 1.0060, val loss 5.8775
+
+--- SFT Inference at step 300 ---
+前句：北风卷地白草折。续写：绕汉家。
+----------------------------------
+
+SFT step 350: train loss 0.9782, val loss 6.0245
+SFT step 400: train loss 0.9871, val loss 5.9412
+
+--- SFT Inference at step 400 ---
+前句：北风卷地白草折。续写：落忽飘灯独出都。
+----------------------------------
+
+SFT step 450: train loss 0.9206, val loss 5.9886
+SFT step 500: train loss 0.8628, val loss 5.9340
+
+--- SFT Inference at step 500 ---
+前句：北风卷地白草折。续写：白水滴清宵细草香林。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.9621, val loss 10.8781
+
+--- SFT Inference at step 0 ---
+前句：北风卷地白草折。续写：树杪百馀辉，野旷。
+----------------------------------
+
+SFT step 50: train loss 1.4266, val loss 6.1093
+SFT step 100: train loss 1.2990, val loss 5.9458
+
+--- SFT Inference at step 100 ---
+前句：北风卷地白草折。续写：青月出云暮雨声。
+----------------------------------
+
+SFT step 150: train loss 1.1618, val loss 6.0007
+SFT step 200: train loss 1.1134, val loss 5.9611
+
+--- SFT Inference at step 200 ---
+前句：北风卷地白草折。续写：青条行渡远。
+----------------------------------
+
+SFT step 250: train loss 1.0519, val loss 5.8860
+SFT step 300: train loss 1.0165, val loss 5.9383
+
+--- SFT Inference at step 300 ---
+前句：北风卷地白草折。续写：千乘舟轻万里眼前。
+----------------------------------
+
+SFT step 350: train loss 0.9751, val loss 5.8426
+SFT step 400: train loss 0.9685, val loss 5.8735
+
+--- SFT Inference at step 400 ---
+前句：北风卷地白草折。续写：泥只得志决身登剑阁凉。
+----------------------------------
+
+SFT step 450: train loss 0.9410, val loss 6.0304
+SFT step 500: train loss 0.8965, val loss 5.9786
+
+--- SFT Inference at step 500 ---
+前句：北风卷地白草折。续写：猛苍茫微霜钟动地气。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.9004, val loss 10.8319
+SFT step 100: train loss 1.3066, val loss 6.0802
+SFT step 200: train loss 1.1181, val loss 5.9231
+--- Step 200 ---
+前句：明月出天山。续写：兴因避地一举。
+--- Step 200 ---
+前句：北风卷地白草折。续写：箫鼓雪满天子。
+----------------------------------
+
+SFT step 300: train loss 1.0550, val loss 6.0251
+SFT step 400: train loss 0.9428, val loss 5.9133
+--- Step 400 ---
+前句：明月出天山。续写：沈如闻俗看。
+--- Step 400 ---
+前句：北风卷地白草折。续写：千呼阴阴阴夏。
+----------------------------------
+
+SFT step 500: train loss 0.8833, val loss 5.8630
+SFT step 600: train loss 0.8532, val loss 5.8791
+--- Step 600 ---
+前句：明月出天山。续写：苍烟水独去未已。
+--- Step 600 ---
+前句：北风卷地白草折。续写：断水深闺人分明镜胡雁飞。
+----------------------------------
+
+SFT step 700: train loss 0.8107, val loss 5.9982
+SFT step 800: train loss 0.7663, val loss 6.0170
+--- Step 800 ---
+前句：明月出天山。续写：苍苍横翠袖薄暮掩柴扉。
+--- Step 800 ---
+前句：北风卷地白草折。续写：无人传闻人在船。
+----------------------------------
+
+SFT step 900: train loss 0.7320, val loss 6.0933
+SFT step 1000: train loss 0.6989, val loss 6.0710
+--- Step 1000 ---
+前句：明月出天山。续写：传汉使蛟龙羊归。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：海隅大将登青。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8927, val loss 10.9876
+SFT step 100: train loss 1.2425, val loss 6.0264
+SFT step 200: train loss 1.1118, val loss 5.9096
+--- Step 200 ---
+前句：明月出天山。续写：宝剑知。
+--- Step 200 ---
+前句：北风卷地白草折。续写：箫鼓喧汉文身上。
+----------------------------------
+
+SFT step 300: train loss 0.9735, val loss 5.8760
+SFT step 400: train loss 1.0009, val loss 5.9652
+--- Step 400 ---
+前句：明月出天山。续写：谪将已与秦桑麻。
+--- Step 400 ---
+前句：北风卷地白草折。续写：绕床前屹相望八月舒波。
+----------------------------------
+
+SFT step 500: train loss 0.8781, val loss 5.9234
+SFT step 600: train loss 0.8739, val loss 6.0563
+--- Step 600 ---
+前句：明月出天山。续写：仙到庞公是丁年。
+--- Step 600 ---
+前句：北风卷地白草折。续写：千秋风急管曲调。
+----------------------------------
+
+SFT step 700: train loss 0.8550, val loss 6.1439
+SFT step 800: train loss 0.7914, val loss 6.0631
+--- Step 800 ---
+前句：明月出天山。续写：苍苍苍山夹乱流。
+--- Step 800 ---
+前句：北风卷地白草折。续写：落落生得梦时来山拥蓟城。
+----------------------------------
+
+SFT step 900: train loss 0.7515, val loss 6.1163
+SFT step 1000: train loss 0.7137, val loss 6.0737
+--- Step 1000 ---
+前句：明月出天山。续写：赤松家书抵万本。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：落楚塞草折露滴。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.8771, val loss 10.8506
+SFT step 100: train loss 1.1935, val loss 6.0125
+SFT step 200: train loss 1.1118, val loss 5.8810
+--- Step 200 ---
+前句：明月出天山。续写：箫国破胆慑如云。
+--- Step 200 ---
+前句：北风卷地白草折。续写：花枝春色随九华。
+----------------------------------
+
+SFT step 300: train loss 1.0030, val loss 5.8484
+SFT step 400: train loss 0.9603, val loss 5.9270
+--- Step 400 ---
+前句：明月出天山。续写：不见返关塞草。
+--- Step 400 ---
+前句：北风卷地白草折。续写：胡天畔如闻道。
+----------------------------------
+
+SFT step 500: train loss 0.8772, val loss 5.9374
+SFT step 600: train loss 0.8233, val loss 6.0816
+--- Step 600 ---
+前句：明月出天山。续写：几缕声。
+--- Step 600 ---
+前句：北风卷地白草折。续写：青萝拂汉使蛟龙腾畏晓。
+----------------------------------
+
+SFT step 700: train loss 0.8109, val loss 6.0828
+SFT step 800: train loss 0.7966, val loss 6.1304
+--- Step 800 ---
+前句：明月出天山。续写：庐山树带郭暗海隅。
+--- Step 800 ---
+前句：北风卷地白草折。续写：惟馀钟人帐里浮云来。
+----------------------------------
+
+SFT step 900: train loss 0.7333, val loss 6.0783
+SFT step 1000: train loss 0.7038, val loss 6.1773
+--- Step 1000 ---
+前句：明月出天山。续写：青山归来赤鸡。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：花落。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+=================== 开始新的预训练 ===================
+Training on device: mps
+step 0: train loss 8.0177, val loss 7.9934
+step 100: train loss 6.0411, val loss 6.1525
+step 200: train loss 5.4494, val loss 6.0174
+step 300: train loss 4.8805, val loss 6.0126
+step 400: train loss 4.3036, val loss 6.0843
+step 500: train loss 3.7943, val loss 6.1523
+
+--- Generation at step 500 ---
+床前明月光来。
+方悟平云帆鄂云起，心。
+漫坐惧。
+月端尽肠门一雁连天费苑头去，不林。
+卫到天下沸，抚名坐阶广陵
+--------------------------
+
+step 600: train loss 3.4918, val loss 6.2566
+step 700: train loss 3.2186, val loss 6.4587
+step 800: train loss 3.0050, val loss 6.6370
+step 900: train loss 2.8763, val loss 6.7952
+step 1000: train loss 2.7765, val loss 6.8859
+
+--- Generation at step 1000 ---
+床前明月光满店香，丹凤池对斜。
+秋塞通阑干，月明年秋花独在？
+东我自故乡泪无萤飞雪山中，春草如。
+岁颇。
+闻至
+--------------------------
+
+step 1100: train loss 2.6627, val loss 6.8778
+step 1200: train loss 2.4681, val loss 7.1204
+step 1300: train loss 2.3165, val loss 7.1645
+step 1400: train loss 2.1593, val loss 7.2858
+step 1500: train loss 1.9734, val loss 7.4623
+
+--- Generation at step 1500 ---
+床前明月光满空。
+摘花江水多上无端五二，宗人间会有时郭家使骅骝，无赖湓浦口他沽取酒，词中声直复五兄弟子堂坐见语
+--------------------------
+
+step 1600: train loss 1.8251, val loss 7.5211
+step 1700: train loss 1.6988, val loss 7.6802
+step 1800: train loss 1.5082, val loss 7.8198
+step 1900: train loss 1.3360, val loss 7.9404
+step 2000: train loss 1.2281, val loss 8.0122
+
+--- Generation at step 2000 ---
+床前明月光，故乡书。
+寒花影动摇落木，迢递嵩汉使千门。
+君复乘黄粱远戍，犹疑君迟。
+白日来征战尽，留马出门山旧
+--------------------------
+
+Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+预训练模型权重已保存至 mini_gpt.pt
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.6031, val loss 10.5878
+SFT step 100: train loss 1.2115, val loss 5.9508
+SFT step 200: train loss 1.0343, val loss 5.9423
+--- Step 200 ---
+前句：明月出天山。续写：墟里疏引还。
+--- Step 200 ---
+前句：北风卷地白草折。续写：长堪江茫古木疏。
+----------------------------------
+
+SFT step 300: train loss 0.9356, val loss 5.9380
+SFT step 400: train loss 0.8906, val loss 6.0015
+--- Step 400 ---
+前句：明月出天山。续写：苍茫茫然。
+--- Step 400 ---
+前句：北风卷地白草折。续写：车走避胡儿。
+----------------------------------
+
+SFT step 500: train loss 0.8388, val loss 5.8994
+SFT step 600: train loss 0.7885, val loss 5.9794
+--- Step 600 ---
+前句：明月出天山。续写：叹息一枝不至。
+--- Step 600 ---
+前句：北风卷地白草折。续写：暮雪海湾书漫冻。
+----------------------------------
+
+SFT step 700: train loss 0.7427, val loss 6.1130
+SFT step 800: train loss 0.7516, val loss 6.0699
+--- Step 800 ---
+前句：明月出天山。续写：蛟龙听不眠不复登道。
+--- Step 800 ---
+前句：北风卷地白草折。续写：五江水寒声。
+----------------------------------
+
+SFT step 900: train loss 0.7076, val loss 6.0491
+SFT step 1000: train loss 0.6772, val loss 6.1964
+--- Step 1000 ---
+前句：明月出天山。续写：五处学书抵万里。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：一夜四无城南飞。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.6086, val loss 10.5782
+SFT step 100: train loss 1.2712, val loss 6.0593
+SFT step 200: train loss 1.1034, val loss 5.9227
+--- Step 200 ---
+前句：明月出天山。续写：又满山客寒。
+--- Step 200 ---
+前句：北风卷地白草折。续写：独见长明朝驿树。
+----------------------------------
+
+SFT step 300: train loss 0.9962, val loss 5.9373
+SFT step 400: train loss 0.8862, val loss 5.9492
+--- Step 400 ---
+前句：明月出天山。续写：月流津欲各在。
+--- Step 400 ---
+前句：北风卷地白草折。续写：沙日斗几重飞自悲。
+----------------------------------
+
+SFT step 500: train loss 0.8379, val loss 6.1293
+SFT step 600: train loss 0.8159, val loss 6.0425
+--- Step 600 ---
+前句：明月出天山。续写：云霞生结海。
+--- Step 600 ---
+前句：北风卷地白草折。续写：长地空复五道回。
+----------------------------------
+
+SFT step 700: train loss 0.7384, val loss 6.1195
+SFT step 800: train loss 0.7321, val loss 6.1350
+--- Step 800 ---
+前句：明月出天山。续写：低空复登临江田。
+--- Step 800 ---
+前句：北风卷地白草折。续写：凝清渭东出飞回。
+----------------------------------
+
+SFT step 900: train loss 0.7084, val loss 6.0979
+SFT step 1000: train loss 0.6709, val loss 6.2917
+--- Step 1000 ---
+前句：明月出天山。续写：势如青天上。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：针线一片山响良相望。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.5665, val loss 10.5336
+SFT step 100: train loss 1.2065, val loss 6.1168
+SFT step 200: train loss 1.0496, val loss 5.9840
+--- Step 200 ---
+前句：明月出天山。续写：青红涧还复挑瑟。
+--- Step 200 ---
+前句：北风卷地白草折。续写：东望孤高楼。
+----------------------------------
+
+SFT step 300: train loss 0.9379, val loss 5.9753
+SFT step 400: train loss 0.9837, val loss 5.9786
+--- Step 400 ---
+前句：明月出天山。续写：江流水路青。
+--- Step 400 ---
+前句：北风卷地白草折。续写：故关。
+----------------------------------
+
+SFT step 500: train loss 0.8872, val loss 6.0388
+SFT step 600: train loss 0.8153, val loss 6.0156
+--- Step 600 ---
+前句：明月出天山。续写：烟楚妃。
+--- Step 600 ---
+前句：北风卷地白草折。续写：不见青苔没。
+----------------------------------
+
+SFT step 700: train loss 0.7545, val loss 6.0451
+SFT step 800: train loss 0.7531, val loss 6.0819
+--- Step 800 ---
+前句：明月出天山。续写：苍茫云低头头落。
+--- Step 800 ---
+前句：北风卷地白草折。续写：胡窥川萧条白苹。
+----------------------------------
+
+SFT step 900: train loss 0.7125, val loss 6.1528
+SFT step 1000: train loss 0.6652, val loss 6.0419
+--- Step 1000 ---
+前句：明月出天山。续写：长天低头思。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：椒房阿监青空山。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.6657, val loss 10.5421
+SFT step 100: train loss 1.2450, val loss 6.0011
+SFT step 200: train loss 1.0882, val loss 6.0317
+--- Step 200 ---
+前句：明月出天山。续写：采山独往来。
+--- Step 200 ---
+前句：北风卷地白草折。续写：可怜九马争渡作九。
+----------------------------------
+
+SFT step 300: train loss 1.0133, val loss 6.0351
+SFT step 400: train loss 0.8875, val loss 5.9866
+--- Step 400 ---
+前句：明月出天山。续写：同来哉躬。
+--- Step 400 ---
+前句：北风卷地白草折。续写：马去时雪片飞雪飞。
+----------------------------------
+
+SFT step 500: train loss 0.8805, val loss 5.9954
+SFT step 600: train loss 0.8171, val loss 6.1216
+--- Step 600 ---
+前句：明月出天山。续写：古今日依旧过。
+--- Step 600 ---
+前句：北风卷地白草折。续写：今日飞病解朝朝望五铢钱。
+----------------------------------
+
+SFT step 700: train loss 0.7650, val loss 6.0951
+SFT step 800: train loss 0.7446, val loss 6.1398
+--- Step 800 ---
+前句：明月出天山。续写：西宫俱怀故乡处。
+--- Step 800 ---
+前句：北风卷地白草折。续写：绝胡儿扶持自悲。
+----------------------------------
+
+SFT step 900: train loss 0.6991, val loss 6.0811
+SFT step 1000: train loss 0.6701, val loss 6.2509
+--- Step 1000 ---
+前句：明月出天山。续写：苍苍茫云中有。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：雪海流天地间何为奴草。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.5468, val loss 10.5614
+SFT step 100: train loss 1.1829, val loss 5.9649
+SFT step 200: train loss 1.0535, val loss 5.8641
+--- Step 200 ---
+前句：明月出天山。续写：不见陇上来征。
+--- Step 200 ---
+前句：北风卷地白草折。续写：岁除哀下白今。
+----------------------------------
+
+SFT step 300: train loss 1.0010, val loss 5.8832
+SFT step 400: train loss 0.9749, val loss 5.9240
+--- Step 400 ---
+前句：明月出天山。续写：不得至此至。
+--- Step 400 ---
+前句：北风卷地白草折。续写：恐迟迟迟归鹿门。
+----------------------------------
+
+SFT step 500: train loss 0.8418, val loss 5.9937
+SFT step 600: train loss 0.8229, val loss 6.0657
+--- Step 600 ---
+前句：明月出天山。续写：清听钟磬满空馀。
+--- Step 600 ---
+前句：北风卷地白草折。续写：胡天假神妙玉盘脍鲤鱼。
+----------------------------------
+
+SFT step 700: train loss 0.7532, val loss 6.0071
+SFT step 800: train loss 0.7728, val loss 6.0418
+--- Step 800 ---
+前句：明月出天山。续写：渚西下迟。
+--- Step 800 ---
+前句：北风卷地白草折。续写：独主人自归。
+----------------------------------
+
+SFT step 900: train loss 0.6854, val loss 6.0440
+SFT step 1000: train loss 0.6764, val loss 6.1442
+--- Step 1000 ---
+前句：明月出天山。续写：采海远隋流。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：忽闻至此语重唧。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.7217, val loss 10.5070
+SFT step 100: train loss 1.2473, val loss 6.1423
+SFT step 200: train loss 1.0555, val loss 5.9242
+--- Step 200 ---
+前句：明月出天山。续写：浦山生残到关。
+--- Step 200 ---
+前句：北风卷地白草折。续写：风早朝刀。
+----------------------------------
+
+SFT step 300: train loss 1.0013, val loss 6.0406
+SFT step 400: train loss 0.9583, val loss 5.9384
+--- Step 400 ---
+前句：明月出天山。续写：苍不见萧芦草。
+--- Step 400 ---
+前句：北风卷地白草折。续写：青天书飞延秋夜。
+----------------------------------
+
+SFT step 500: train loss 0.8896, val loss 6.0276
+SFT step 600: train loss 0.8187, val loss 6.1636
+--- Step 600 ---
+前句：明月出天山。续写：苍苔上羊天不见。
+--- Step 600 ---
+前句：北风卷地白草折。续写：胡正与羲江十四夷歌舞。
+----------------------------------
+
+SFT step 700: train loss 0.8101, val loss 6.1537
+SFT step 800: train loss 0.7478, val loss 6.1152
+--- Step 800 ---
+前句：明月出天山。续写：万里征征袍。
+--- Step 800 ---
+前句：北风卷地白草折。续写：九微片飞渡雪风早。
+----------------------------------
+
+SFT step 900: train loss 0.7232, val loss 6.2675
+SFT step 1000: train loss 0.6453, val loss 6.1699
+--- Step 1000 ---
+前句：明月出天山。续写：迷花影空有佳期。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：金陵客争神。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.6807, val loss 10.4724
+SFT step 100: train loss 1.2575, val loss 6.0969
+SFT step 200: train loss 1.0321, val loss 5.9625
+--- Step 200 ---
+前句：明月出天山。续写：送罢暮雪霁发。
+--- Step 200 ---
+前句：北风卷地白草折。续写：沙口守或天旋作商。
+----------------------------------
+
+SFT step 300: train loss 1.0084, val loss 5.9441
+SFT step 400: train loss 0.8918, val loss 5.9931
+--- Step 400 ---
+前句：明月出天山。续写：苍思故乡书菊。
+--- Step 400 ---
+前句：北风卷地白草折。续写：初为酒来途若定。
+----------------------------------
+
+SFT step 500: train loss 0.8850, val loss 5.9345
+SFT step 600: train loss 0.8327, val loss 6.0045
+--- Step 600 ---
+前句：明月出天山。续写：更上舟梦啼鸟。
+--- Step 600 ---
+前句：北风卷地白草折。续写：菡萏发荷笠摩苍茫然。
+----------------------------------
+
+SFT step 700: train loss 0.8069, val loss 6.0444
+SFT step 800: train loss 0.7331, val loss 6.1157
+--- Step 800 ---
+前句：明月出天山。续写：荒城中闻见海天。
+--- Step 800 ---
+前句：北风卷地白草折。续写：沙口石冻不到海鸥。
+----------------------------------
+
+SFT step 900: train loss 0.6975, val loss 6.1221
+SFT step 1000: train loss 0.7026, val loss 6.1613
+--- Step 1000 ---
+前句：明月出天山。续写：苍苔征人独眠入道。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：日潜行路幽人贫。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.5766, val loss 10.5349
+SFT step 100: train loss 1.2183, val loss 6.1108
+SFT step 200: train loss 1.0901, val loss 5.9955
+--- Step 200 ---
+前句：明月出天山。续写：忽闻至。
+--- Step 200 ---
+前句：北风卷地白草折。续写：早被离颜空。
+----------------------------------
+
+SFT step 300: train loss 0.9863, val loss 5.9094
+SFT step 400: train loss 0.9213, val loss 6.0256
+--- Step 400 ---
+前句：明月出天山。续写：烟朝为青溪水水。
+--- Step 400 ---
+前句：北风卷地白草折。续写：长江流泪红旗。
+----------------------------------
+
+SFT step 500: train loss 0.8685, val loss 5.9522
+SFT step 600: train loss 0.7910, val loss 5.9755
+--- Step 600 ---
+前句：明月出天山。续写：月照我影零乱石。
+--- Step 600 ---
+前句：北风卷地白草折。续写：十五马正一日更作嫁作胡马蹄。
+----------------------------------
+
+SFT step 700: train loss 0.7710, val loss 6.1128
+SFT step 800: train loss 0.7530, val loss 6.1248
+--- Step 800 ---
+前句：明月出天山。续写：渚愁红叶人。
+--- Step 800 ---
+前句：北风卷地白草折。续写：东风掣红楼。
+----------------------------------
+
+SFT step 900: train loss 0.7270, val loss 6.2177
+SFT step 1000: train loss 0.6902, val loss 6.1713
+--- Step 1000 ---
+前句：明月出天山。续写：苍山郭外。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：椒房阿监青鸟飞。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+=================== 开始新的预训练 ===================
+Training on device: mps
+step 0: train loss 7.9796, val loss 7.9798
+step 100: train loss 6.0188, val loss 6.1466
+step 200: train loss 5.5124, val loss 6.1019
+step 300: train loss 4.8669, val loss 6.0439
+step 400: train loss 4.2742, val loss 6.1020
+step 500: train loss 3.7844, val loss 6.1604
+
+--- Generation at step 500 ---
+床前明月光寒水萧条，野云芙蓉郊。
+淮勒官坐采，浩去岭城。
+一剑器城日色，养巧吾宁。
+天身路楚客，贼青天夷涤事空
+--------------------------
+
+step 600: train loss 3.5280, val loss 6.3839
+step 700: train loss 3.2856, val loss 6.4720
+step 800: train loss 3.0631, val loss 6.6472
+step 900: train loss 2.9047, val loss 6.7368
+step 1000: train loss 2.6826, val loss 6.9241
+
+--- Generation at step 1000 ---
+床前明月光悦，八千金钗擘黄云。
+窃冰塞复明吹角，落深山中景物华。
+柳一夜，与余亦举生夜榜响几使我至。
+星河寄身
+--------------------------
+
+step 1100: train loss 2.5365, val loss 6.9263
+step 1200: train loss 2.3669, val loss 7.1195
+step 1300: train loss 2.2656, val loss 7.2838
+step 1400: train loss 2.0465, val loss 7.3621
+step 1500: train loss 1.8996, val loss 7.4397
+
+--- Generation at step 1500 ---
+床前明月光寒。
+云阴鸣夜深，长薄暮渔梁入高。
+回看取来就菊花含情。
+远送金帘，哀吟秀句。
+临古戍鼓瑟，东来枫叶
+--------------------------
+
+step 1600: train loss 1.7023, val loss 7.6094
+step 1700: train loss 1.5440, val loss 7.7168
+step 1800: train loss 1.5039, val loss 7.8694
+step 1900: train loss 1.2954, val loss 7.9431
+step 2000: train loss 1.1750, val loss 8.0642
+
+--- Generation at step 2000 ---
+床前明月光，繁星欲往来。
+开轩面场烽火寒，一雁警愁一枝。
+野旷天沧海日角，人处同。
+莫学武陵年十年，黄鹂空悠悠
+--------------------------
+
+Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+预训练模型权重已保存至 mini_gpt.pt
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.5564, val loss 10.6149
+SFT step 100: train loss 1.2085, val loss 6.0983
+SFT step 200: train loss 0.9825, val loss 5.9653
+--- Step 200 ---
+前句：明月出天山。续写：城上无一夜。
+--- Step 200 ---
+前句：北风卷地白草折。续写：波澜动容寂寞身。
+----------------------------------
+
+SFT step 300: train loss 0.9477, val loss 6.0409
+SFT step 400: train loss 0.8929, val loss 6.0579
+--- Step 400 ---
+前句：明月出天山。续写：树西风吹不见长。
+--- Step 400 ---
+前句：北风卷地白草折。续写：身孤城南流今多病浔阳楼。
+----------------------------------
+
+SFT step 500: train loss 0.8723, val loss 6.0382
+SFT step 600: train loss 0.7696, val loss 6.0057
+--- Step 600 ---
+前句：明月出天山。续写：水泉水清秋长时。
+--- Step 600 ---
+前句：北风卷地白草折。续写：胡天上舟。
+----------------------------------
+
+SFT step 700: train loss 0.7167, val loss 6.1486
+SFT step 800: train loss 0.7086, val loss 6.2799
+--- Step 800 ---
+前句：明月出天山。续写：欲饮一树风雨。
+--- Step 800 ---
+前句：北风卷地白草折。续写：榻上海畔云边意。
+----------------------------------
+
+SFT step 900: train loss 0.6923, val loss 6.2628
+SFT step 1000: train loss 0.6351, val loss 6.2142
+--- Step 1000 ---
+前句：明月出天山。续写：日一夜雨里。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：松风玉垒萧索犹。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.7308, val loss 10.5385
+SFT step 100: train loss 1.1497, val loss 6.0644
+SFT step 200: train loss 1.0203, val loss 6.0198
+--- Step 200 ---
+前句：明月出天山。续写：涵虚混太清泉石清。
+--- Step 200 ---
+前句：北风卷地白草折。续写：顾频全师。
+----------------------------------
+
+SFT step 300: train loss 0.9300, val loss 6.0186
+SFT step 400: train loss 0.8800, val loss 6.0231
+--- Step 400 ---
+前句：明月出天山。续写：影无道路入。
+--- Step 400 ---
+前句：北风卷地白草折。续写：胡正庞时杯声见稀。
+----------------------------------
+
+SFT step 500: train loss 0.8455, val loss 6.1744
+SFT step 600: train loss 0.7990, val loss 6.2367
+--- Step 600 ---
+前句：明月出天山。续写：演漾泛清湘水。
+--- Step 600 ---
+前句：北风卷地白草折。续写：问君不得是宸游人命酒欢笑百尺。
+----------------------------------
+
+SFT step 700: train loss 0.7575, val loss 6.1221
+SFT step 800: train loss 0.6792, val loss 6.0366
+--- Step 800 ---
+前句：明月出天山。续写：阁霭入赤松作石。
+--- Step 800 ---
+前句：北风卷地白草折。续写：一万户捣衣裳照城边愿向东城南苑。
+----------------------------------
+
+SFT step 900: train loss 0.6794, val loss 6.1942
+SFT step 1000: train loss 0.6350, val loss 6.2130
+--- Step 1000 ---
+前句：明月出天山。续写：大石镜湖青山。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：胡正坠双滂沱白。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.7414, val loss 10.6067
+SFT step 100: train loss 1.1584, val loss 6.1900
+SFT step 200: train loss 1.0008, val loss 6.0295
+--- Step 200 ---
+前句：明月出天山。续写：幽上林繁花夹乱。
+--- Step 200 ---
+前句：北风卷地白草折。续写：偶似刀酒舫大兄。
+----------------------------------
+
+SFT step 300: train loss 0.9223, val loss 5.9784
+SFT step 400: train loss 0.8659, val loss 5.9805
+--- Step 400 ---
+前句：明月出天山。续写：涵涵虚混太清溪。
+--- Step 400 ---
+前句：北风卷地白草折。续写：胡天低相望城楼。
+----------------------------------
+
+SFT step 500: train loss 0.8482, val loss 6.1251
+SFT step 600: train loss 0.7640, val loss 6.1517
+--- Step 600 ---
+前句：明月出天山。续写：弹渌水自东。
+--- Step 600 ---
+前句：北风卷地白草折。续写：蚕到天高多。
+----------------------------------
+
+SFT step 700: train loss 0.7410, val loss 6.2071
+SFT step 800: train loss 0.6777, val loss 6.1817
+--- Step 800 ---
+前句：明月出天山。续写：谈笑无还期。
+--- Step 800 ---
+前句：北风卷地白草折。续写：胡营斋折花隔蓬。
+----------------------------------
+
+SFT step 900: train loss 0.6917, val loss 6.3098
+SFT step 1000: train loss 0.6342, val loss 6.3026
+--- Step 1000 ---
+前句：明月出天山。续写：夜月浮烟飞雁。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：也曾因应官。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.6675, val loss 10.5898
+SFT step 100: train loss 1.1483, val loss 5.9825
+SFT step 200: train loss 1.0206, val loss 5.9237
+--- Step 200 ---
+前句：明月出天山。续写：潭影空谷。
+--- Step 200 ---
+前句：北风卷地白草折。续写：心似向东行。
+----------------------------------
+
+SFT step 300: train loss 0.9266, val loss 5.9257
+SFT step 400: train loss 0.8551, val loss 6.0180
+--- Step 400 ---
+前句：明月出天山。续写：忽夕望君问。
+--- Step 400 ---
+前句：北风卷地白草折。续写：胡正繁花满辽阳。
+----------------------------------
+
+SFT step 500: train loss 0.8164, val loss 5.9362
+SFT step 600: train loss 0.7834, val loss 6.1546
+--- Step 600 ---
+前句：明月出天山。续写：演漾在一夜流。
+--- Step 600 ---
+前句：北风卷地白草折。续写：骨肉远隋流到官。
+----------------------------------
+
+SFT step 700: train loss 0.7300, val loss 6.1782
+SFT step 800: train loss 0.7113, val loss 6.1905
+--- Step 800 ---
+前句：明月出天山。续写：建德夜吟苦贼斫。
+--- Step 800 ---
+前句：北风卷地白草折。续写：胡风吹林陵风吹笛大栀子肥。
+----------------------------------
+
+SFT step 900: train loss 0.6564, val loss 6.1218
+SFT step 1000: train loss 0.6409, val loss 6.2481
+--- Step 1000 ---
+前句：明月出天山。续写：夜忆秦塞声。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：胡天地一夜飞雪。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.6563, val loss 10.6009
+SFT step 100: train loss 1.1571, val loss 5.9872
+SFT step 200: train loss 1.0168, val loss 6.0578
+--- Step 200 ---
+前句：明月出天山。续写：波撼岳阳行。
+--- Step 200 ---
+前句：北风卷地白草折。续写：落寒翠袖两茫茫然。
+----------------------------------
+
+SFT step 300: train loss 0.9224, val loss 5.9740
+SFT step 400: train loss 0.8465, val loss 6.0490
+--- Step 400 ---
+前句：明月出天山。续写：冢入大荒城。
+--- Step 400 ---
+前句：北风卷地白草折。续写：繁花满屋底达人。
+----------------------------------
+
+SFT step 500: train loss 0.8454, val loss 6.0576
+SFT step 600: train loss 0.7860, val loss 6.1062
+--- Step 600 ---
+前句：明月出天山。续写：月松云林月。
+--- Step 600 ---
+前句：北风卷地白草折。续写：骨肉不得多违来。
+----------------------------------
+
+SFT step 700: train loss 0.7387, val loss 6.0538
+SFT step 800: train loss 0.7040, val loss 6.2441
+--- Step 800 ---
+前句：明月出天山。续写：城树西头望明月。
+--- Step 800 ---
+前句：北风卷地白草折。续写：胡正肥大嫁向东。
+----------------------------------
+
+SFT step 900: train loss 0.6754, val loss 6.1442
+SFT step 1000: train loss 0.6402, val loss 6.2348
+--- Step 1000 ---
+前句：明月出天山。续写：冥泉水。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：胡骑凭陵风吹林。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.6319, val loss 10.6053
+SFT step 100: train loss 1.1419, val loss 6.0782
+SFT step 200: train loss 1.0283, val loss 5.9293
+--- Step 200 ---
+前句：明月出天山。续写：前句：山色里逢秋花。
+--- Step 200 ---
+前句：北风卷地白草折。续写：邑龙池向南倾国游如涌大行。
+----------------------------------
+
+SFT step 300: train loss 0.9544, val loss 6.0600
+SFT step 400: train loss 0.8490, val loss 6.0711
+--- Step 400 ---
+前句：明月出天山。续写：频中相悦鸟去。
+--- Step 400 ---
+前句：北风卷地白草折。续写：江海嘶马饮高楼。
+----------------------------------
+
+SFT step 500: train loss 0.8537, val loss 6.1065
+SFT step 600: train loss 0.7736, val loss 6.0476
+--- Step 600 ---
+前句：明月出天山。续写：往来雁近入赤溪。
+--- Step 600 ---
+前句：北风卷地白草折。续写：送万师城南冠时。
+----------------------------------
+
+SFT step 700: train loss 0.7977, val loss 6.0002
+SFT step 800: train loss 0.6779, val loss 6.1286
+--- Step 800 ---
+前句：明月出天山。续写：澄映葭苇几枝。
+--- Step 800 ---
+前句：北风卷地白草折。续写：胡渌水边多违。
+----------------------------------
+
+SFT step 900: train loss 0.6844, val loss 6.2071
+SFT step 1000: train loss 0.6236, val loss 6.2085
+--- Step 1000 ---
+前句：明月出天山。续写：建安道流水浊流。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：涤瑕荡垢清高气湿蛰熏殿。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+=================== 开始新的预训练 ===================
+Training on device: mps
+step 0: train loss 7.9721, val loss 7.9699
+step 100: train loss 6.0077, val loss 6.1684
+step 200: train loss 5.4464, val loss 6.0700
+step 300: train loss 4.8590, val loss 6.0315
+step 400: train loss 4.2856, val loss 6.0736
+step 500: train loss 3.8210, val loss 6.1976
+
+--- Generation at step 500 ---
+床前明月光随戚权。
+当千乘楼当，维还若涛入海松家。
+少郊，因顾心置酒饮月到柴扉。
+归山涯原天涯草自惭道，春夜论
+--------------------------
+
+step 600: train loss 3.5512, val loss 6.3742
+step 700: train loss 3.2684, val loss 6.5946
+step 800: train loss 3.0154, val loss 6.7079
+step 900: train loss 2.9048, val loss 6.7997
+step 1000: train loss 2.6979, val loss 6.8992
+
+--- Generation at step 1000 ---
+床前明月光，不收舟人犹歌一人扫御床。
+五更添薪仰聆金逦如此时飞，不信高树。
+玉阶渡头搔更添香间会双眉，一敌欤欲
+--------------------------
+
+step 1100: train loss 2.5830, val loss 6.9362
+step 1200: train loss 2.4272, val loss 7.1270
+step 1300: train loss 2.3325, val loss 7.1083
+step 1400: train loss 2.1347, val loss 7.3934
+step 1500: train loss 2.0359, val loss 7.4664
+
+--- Generation at step 1500 ---
+床前明月光，万岁暮供苍。
+江急夜下马，明月生忆旧业暮，玉黯黯黯独倾。
+来沧洲如何有时。
+长寂寞不眠，青溪口他乡
+--------------------------
+
+step 1600: train loss 1.8993, val loss 7.5589
+step 1700: train loss 1.6605, val loss 7.6414
+step 1800: train loss 1.5182, val loss 7.7173
+step 1900: train loss 1.4014, val loss 7.9003
+step 2000: train loss 1.2347, val loss 8.0948
+
+--- Generation at step 2000 ---
+床前明月光，未成流皆泪始同。
+但见时倚杖候看尽，夜四弦弦无片月！
+须尽思愁见汉使，辞家抑开风对此到胡。
+陆机中
+--------------------------
+
+Loss 收敛曲线已保存至 /Users/zhanghaozhe/Documents/VScode/Mini GPT/results/loss_curve.png
+预训练模型权重已保存至 mini_gpt.pt
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.3529, val loss 10.2937
+SFT step 100: train loss 1.2425, val loss 6.0044
+SFT step 200: train loss 1.0552, val loss 5.9893
+--- Step 200 ---
+前句：明月出天山。续写：澄澄澄澄澄澄澄澄澄澄澄澄澄澄澄鸟。
+--- Step 200 ---
+前句：北风卷地白草折。续写：须尽关张翰称名山多苦乞为梁。
+----------------------------------
+
+SFT step 300: train loss 0.9633, val loss 6.0681
+SFT step 400: train loss 0.9120, val loss 5.9339
+--- Step 400 ---
+前句：明月出天山。续写：红涧石梁父吟感。
+--- Step 400 ---
+前句：北风卷地白草折。续写：低头馀姿映寒日。
+----------------------------------
+
+SFT step 500: train loss 0.9130, val loss 5.9736
+SFT step 600: train loss 0.8329, val loss 6.0528
+--- Step 600 ---
+前句：明月出天山。续写：陇上弦一夜。
+--- Step 600 ---
+前句：北风卷地白草折。续写：江海鸥何年。
+----------------------------------
+
+SFT step 700: train loss 0.7503, val loss 6.1199
+SFT step 800: train loss 0.7397, val loss 6.1234
+--- Step 800 ---
+前句：明月出天山。续写：戍楼宴罢泪川。
+--- Step 800 ---
+前句：北风卷地白草折。续写：阴柳边落木啭黄。
+----------------------------------
+
+SFT step 900: train loss 0.7083, val loss 6.1004
+SFT step 1000: train loss 0.6908, val loss 6.3646
+--- Step 1000 ---
+前句：明月出天山。续写：处宿故乡处宿故。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：猿鸣筝翻疑。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
+正在从预训练原始唐诗中动态抽取并构建对仗句微调数据...
+成功动态提取了 1,363 条形如『前句：...续写：...』的微调指令数据。
+成功加载预训练权重: /Users/zhanghaozhe/Documents/VScode/Mini GPT/Code/mini_gpt/mini_gpt.pt
+=================== 开始监督微调 (SFT) ===================
+SFT step 0: train loss 6.2482, val loss 10.1653
+SFT step 100: train loss 1.1952, val loss 5.9261
+SFT step 200: train loss 1.0710, val loss 5.9096
+--- Step 200 ---
+前句：明月出天山。续写：势拔剑作琵琶幽。
+--- Step 200 ---
+前句：北风卷地白草折。续写：对镜湖月近岩上寒。
+----------------------------------
+
+SFT step 300: train loss 1.0422, val loss 6.0261
+SFT step 400: train loss 0.9126, val loss 6.0011
+--- Step 400 ---
+前句：明月出天山。续写：柳看隘若耶。
+--- Step 400 ---
+前句：北风卷地白草折。续写：不弹一杯酒。
+----------------------------------
+
+SFT step 500: train loss 0.8671, val loss 6.0754
+SFT step 600: train loss 0.7928, val loss 5.9947
+--- Step 600 ---
+前句：明月出天山。续写：水平沙流石客亦谢公之飞。
+--- Step 600 ---
+前句：北风卷地白草折。续写：胡正不复来。
+----------------------------------
+
+SFT step 700: train loss 0.7679, val loss 6.0565
+SFT step 800: train loss 0.7140, val loss 6.2133
+--- Step 800 ---
+前句：明月出天山。续写：蔡家在山泉。
+--- Step 800 ---
+前句：北风卷地白草折。续写：欲奏鸣天不复返。
+----------------------------------
+
+SFT step 900: train loss 0.6835, val loss 6.2302
+SFT step 1000: train loss 0.6620, val loss 6.1143
+--- Step 1000 ---
+前句：明月出天山。续写：沙尘服南坼。
+--- Step 1000 ---
+前句：北风卷地白草折。续写：八月浮云山黄昏。
+----------------------------------
+
+监督微调完成！你已成功实现了规范化的古诗生成。
